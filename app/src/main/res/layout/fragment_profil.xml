@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_layout"
+    tools:context=".Profil">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/PFP"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/chat_avec_lunettes"
+                tools:layout_editor_absoluteX="163dp"
+                tools:layout_editor_absoluteY="118dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="TextView"
+                android:textColor="@color/Yellow"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@color/GreyApple"
+                android:gravity="center"
+                android:hint="Safouane@gmail.com"
+                tools:layout_editor_absoluteX="119dp"
+                tools:layout_editor_absoluteY="430dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@color/GreyApple"
+                android:gravity="center"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="300dp"
+                android:layout_height="65dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:background="@color/GreyApple"
+                android:gravity="center"
+                android:text="TextView" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/ece_logo" />
+
+            <Button
+                android:id="@+id/popupBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:text="Submit"
+                tools:layout_editor_absoluteX="159dp"
+                tools:layout_editor_absoluteY="586dp" />
+
+        </LinearLayout>
+</FrameLayout>
