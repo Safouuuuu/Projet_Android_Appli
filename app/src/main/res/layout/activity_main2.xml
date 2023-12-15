@@ -22,54 +22,60 @@
             tools:layout_editor_absoluteX="163dp"
             tools:layout_editor_absoluteY="118dp" />
 
-        <TextView
-            android:id="@+id/textView14"
+        <Button
+            android:id="@+id/modifier_profil"
             android:layout_width="200dp"
             android:layout_height="40dp"
             android:layout_gravity="center"
-            android:background="@drawable/underscore"
             android:gravity="center"
             android:text="Modifier Profil"
             android:textColor="@color/white"
-            android:textSize="25sp" />
+            android:backgroundTint="@color/Yellow"/>
 
         <TextView
+            android:id="@+id/adresse_mail"
             android:layout_width="300dp"
             android:layout_height="65dp"
             android:layout_gravity="center"
             android:layout_marginTop="40dp"
             android:background="@drawable/radius_recherche"
             android:gravity="center"
+            android:alpha="1"
             android:text="lucy.dpr@edu.ece.fr"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="22sp"
             android:textStyle="bold"
+            android:visibility="visible"
             tools:layout_editor_absoluteX="119dp"
             tools:layout_editor_absoluteY="430dp" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/pseudo"
             android:layout_width="300dp"
             android:layout_height="65dp"
             android:layout_gravity="center"
             android:layout_marginTop="40dp"
             android:background="@drawable/radius_recherche"
             android:gravity="center"
+            android:alpha="1"
+            android:visibility="visible"
             android:text="Lucy D"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="22sp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView13"
+            android:id="@+id/tel"
             android:layout_width="300dp"
             android:layout_height="65dp"
             android:layout_gravity="center"
             android:layout_marginTop="40dp"
             android:background="@drawable/radius_recherche"
             android:clickable="true"
+            android:alpha="1"
             android:focusable="true"
             android:gravity="center"
+            android:visibility="visible"
             android:text="06.54.95.48.23"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="22sp"
@@ -80,7 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
-            app:srcCompat="@drawable/ece_logo" />
+            app:srcCompat="@drawable/ece_logo"/>
 
     </LinearLayout>
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -88,7 +94,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:menu="@menu/bottom_menu"
-        android:onClick="profil"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>

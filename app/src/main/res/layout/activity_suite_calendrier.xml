@@ -160,12 +160,9 @@
 
             <TextView
                 android:id="@+id/textView31"
-                android:layout_width="2dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:layout_marginRight="17dp"
-                android:background="@drawable/circle_shape"
                 android:text="02"
                 android:textColor="@color/black"
                 android:textSize="18sp"
@@ -221,11 +218,14 @@
 
             <TextView
                 android:id="@+id/textView36"
-                android:layout_width="wrap_content"
+                android:layout_width="2dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_marginRight="17dp"
+                android:gravity="center"
                 android:text="07"
                 android:textColor="@color/black"
+                android:background="@drawable/circle_shape"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -547,7 +547,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Formation PSC1 ECE"
+                android:text="Vente de crêpes"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -577,7 +577,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Formation PSC1 ECE"
+                android:text="Hello Monde"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -607,7 +607,7 @@
                 android:layout_marginBottom="20dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Formation PSC1 ECE"
+                android:text="Paris Games Week"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textSize="20sp"
                 android:textStyle="bold" />
